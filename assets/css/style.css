@@ -1,0 +1,272 @@
+/* BODY */
+
+body{
+    background: url('../img/banner2.jpg');
+    /* url('../img/ruido.png'), */
+    /* linear-gradient(50deg,#ff4169,#7c26f8); */
+    background-attachment: fixed;
+    background-size:100%;
+    overflow-x: hidden;
+
+}
+
+.amarelo{
+    color: #ffd100;
+
+}
+
+.container2{
+	margin: 0 auto;
+	width: 72%/* 1200px */
+
+}
+
+.capa{
+    padding-top: 120px;
+    /* max-width: 600%; */
+	width: 100%;
+    height: 500px;
+    display: flex;
+    
+    flex-wrap: wrap;
+   
+    text-align: center;
+    margin-bottom: -135px;
+     /* max-width: 600%; */
+     background:rgba(0,0,0,0.4 );
+
+}
+
+
+
+.capa h1{
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: -0.05px;
+	margin-bottom: 10px;
+}
+
+.texto-capa{
+
+	text-align: center;
+	color: #ccc;
+	display: table-cell;
+	vertical-align: middle;;
+}
+.texto-capa p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin:auto 50px;
+}
+
+.capa .texto-capa form>input[type="search"]{
+    margin: 0px 15px;
+    margin-top: 100px;
+    width: 400px;
+    height: 50px;
+    border:none;
+    border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    font-size: 1.2rem;
+    outline: none;
+    appearance: auto;
+    box-sizing: border-box;
+  
+}
+.capa .texto-capa form>input[type="search"]:hover{
+    border: solid white;
+    background: rgba(0,0,0,0.5);
+    transition: background 0.4s, color 0.4s;
+    color:#ccc;
+}
+/* FIM BODY */
+
+
+/* seccão de recentes */
+
+.recentes{
+    background: seashell;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin-top: 134px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/*css flexbox 1*/
+
+.flex {
+    display: flex;
+    /*um intem do lado do outro*/
+    flex-wrap: wrap;
+    max-width: 600%;
+    text-align: center; 
+}
+
+.flex>article {
+    /* div q está dentro do flex*/
+    flex: 1 1 200px; /*280px*/
+    /* se expanda , fique menor e tenha base de 200*/
+    margin: 0 37px;
+    margin-top: 50px; 
+    
+}
+.flex>article>figure p{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 1em;
+}
+p{
+    margin-bottom: 10px;
+}
+p.dt, p.autor{
+    border-left:  3px solid rgb(121, 121, 121);
+    
+}
+
+.flex>article>figure h3{
+    text-align: center;
+    margin: 7px 0;
+}
+.flex>article>figure>img{
+    
+    cursor: grab;
+    /* height: 250px; */
+    
+}
+
+
+
+
+.flex>article a.ler_artigo{
+
+    
+    font-family: arial;
+    background: rgb(39,112,250);
+   font-size: 16px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    padding:10px 50px;
+    text-decoration: none;
+
+    
+}
+.flex>article a.ler_artigo img{
+    
+    vertical-align: middle;
+}
+
+.flex>article a.ler_artigo:hover{
+    background: rgba(0,0,0,0.5);
+    /* color: #333; */
+    border: 2px solid rgb(39,112,250);
+    -webkit-transition: 0.4s;
+}
+
+
+
+
+
+
+.posicao {
+    width: 50px;  /* Or whatever */
+    height: 540px; /* Or whatever */
+    margin: auto;  /* Magic! */
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
+    border-left: 1.5px solid rgba(0,0,0,0.5);
+    -webkit-transform: scale(0.8);
+}
+
+
+
+.posicao:hover{
+  
+    /* height: 505px; Or whatever */
+    -webkit-transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+
+/* fim secção de recentes */
+
+
+/* Publicidade */
+
+
+.posicao2 {
+    width: 350px;  /*Or whatever*/
+    /* height: 485px; Or whatever */
+    margin: auto;  /* Magic! */
+    text-align: left;
+    padding: 30px;
+    
+}
+
+.publicidade{
+
+    
+    height: 640px;    
+    /* background:rgba(0,0,0,0.4); */
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    margin-bottom: -180px;
+    width: 100%;
+}
+
+
+
+.publicidade h3{
+
+	color: #9bf0e1;
+}
+
+.publicidade h2{
+
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+    color: white;
+    margin: 15px;
+}
+
+
+.publiciade h3{
+
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+    margin: 15px;
+
+
+}
+.publicidade p{
+    margin: 15px;
+    color: #ccc;
+}
+
+#rotacionar img{
+    height: 570px;
+}
+#rotacionar{
+    margin-left: 50px;
+    width: 440px; 
+	 transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+
+    /* padding-right: -1000px; */
+
+	/* padding-left: 80px; */
+}
+
+
+/* fim publicidades */
+
+
+
