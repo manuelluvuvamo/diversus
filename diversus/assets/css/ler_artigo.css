@@ -1,0 +1,155 @@
+.header{
+    background-color: rgb(39,112,250);
+}
+
+body{
+    background-color: seashell ;
+}
+
+
+
+.base{
+    /* border: 1px solid red; */
+    height:565px ;
+    margin-bottom: -66px
+
+}
+
+/*css flexbox 1*/
+
+.flex {
+    display: flex;
+    /*um intem do lado do outro*/
+    flex-wrap: wrap;
+    max-width: 600%;
+    text-align: center; 
+}
+
+.flex>div {
+    /* div q está dentro do flex*/
+    flex: 1 1 280px; /*280px*/
+    /* se expanda , fique menor e tenha base de 200*/
+    /* margin: 0 37px; */
+    /* margin-top: 50px;  */
+    
+}
+
+
+.coluna1, .coluna3 {
+   
+    width: 28%;
+    height: 100%; /* Or whatever */
+    margin: 0;  /* Magic! */
+    border: 2px solid black;  
+    
+}
+
+.coluna2{
+    width: 43.55%;
+    height: 100%; /* Or whatever */
+    margin: 0;  /* Magic! */
+    border: 2px solid black;  
+    font-family: arial;
+    text-align: center;
+    /* padding: 0 20px; */
+    overflow-y: scroll;
+    
+  
+}
+
+.coluna2 figure img{
+    width: 88%;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.coluna2 p,dt{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    width: 88%;
+}
+.coluna2 p{
+    margin-bottom: 15px;
+}
+
+.options{
+    background: rgba(39,112,250,0.5);
+    margin: 15px0;
+}
+
+.options  div{
+    display: inline-block;
+    margin:5px 20px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid red;
+    /* padding: 10px; */
+    width: 70px;
+    height: 30px;
+}
+
+.options  div.star1{
+  margin-top: 15px;
+    width: 70px;
+    height: 40px;
+    border: none;
+}
+
+
+.options div button.star{
+    background: url("../img/unfiled_star.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 70px;
+    height: 40px;
+    text-indent: -2000px;
+    /* border: 1px solid #333; */
+    outline: none;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    
+   
+}
+.options div button.download{
+    background: url("../img/export_pdf.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 70px;
+    height: 40px;
+    /* border: 1px solid #333; */
+    outline: none;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    text-indent: -2000px;
+}
+
+.options div button.comentar{
+
+    font-family: arial;
+    font-size: 15px;
+    background:rgba(130, 169, 241, 0.5);
+    width: 80px;
+    height: 40px;
+    /* border: 1px solid #333; */
+    outline: none;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+}
+
+.options div button.comentar a{
+    text-decoration: none;
+    color: #333;
+    font-family: arial;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+
+
+
+
+
