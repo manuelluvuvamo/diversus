@@ -32,7 +32,75 @@
     <div class="base flex">
 
         <!-- coluna de outros artigos -->
-        <div class="coluna1"> Outros artigos</div>
+        <div class="coluna1"> 
+        
+            
+            <form action="">
+                <h2>Pesquisar</h2>
+                <input type="search" placeholder="pesquisar" required aria-live="polite" >
+            </form>
+
+            <div class="artigos">
+
+                <h2>Outros artigos</h2>
+                <section>
+                    <article class="posicao">
+                        <figure>
+                            <img src="../assets/img/iba - Copia.png" alt="capa do artigo">
+                            <figcaption>
+                                <h3>A <span class="amarelo">importância</span> de beber <span class="amarelo">água</span></h3>
+                               
+                                <p> &nbsp;&nbsp;&nbsp;Água. A água corresponde a cerca de 60% - 70% da constituição do corpo humano....</p>
+    
+                                    <p class="dt"> <small> &nbsp; Publicado aos 23 de agosto de 2021</small></p>
+                                    <p class="autor"><small> &nbsp; <strong>Escrito por:</strong> Manuel António Luvuvamo</small></p>
+                            </figcaption>
+                        </figure>
+                        <br>
+    
+                        <a class="ler_artigo" href="ler_artigo.html"><img src="../assets/img/read.png" alt=""> Ler artigo</a>
+                    </article>
+
+                    <!-- artigo 2 -->
+                    <article class="posicao">
+                        <figure>
+                            <img src="../assets/img/iba - Copia.png" alt="capa do artigo">
+                            <figcaption>
+                                <h3>A <span class="amarelo">importância</span> de beber <span class="amarelo">água</span></h3>
+                               
+                                <p> &nbsp;&nbsp;&nbsp;Água. A água corresponde a cerca de 60% - 70% da constituição do corpo humano....</p>
+    
+                                    <p class="dt"> <small> &nbsp; Publicado aos 23 de agosto de 2021</small></p>
+                                    <p class="autor"><small> &nbsp; <strong>Escrito por:</strong> Manuel António Luvuvamo</small></p>
+                            </figcaption>
+                        </figure>
+                        <br>
+    
+                        <a class="ler_artigo" href="ler_artigo.html"><img src="../assets/img/read.png" alt=""> Ler artigo</a>
+                    </article>
+
+                    <!-- artigo 3 -->
+                    <article class="posicao">
+                        <figure>
+                            <img src="../assets/img/iba - Copia.png" alt="capa do artigo">
+                            <figcaption>
+                                <h3>A <span class="amarelo">importância</span> de beber <span class="amarelo">água</span></h3>
+                               
+                                <p> &nbsp;&nbsp;&nbsp;Água. A água corresponde a cerca de 60% - 70% da constituição do corpo humano....</p>
+    
+                                    <p class="dt"> <small> &nbsp; Publicado aos 23 de agosto de 2021</small></p>
+                                    <p class="autor"><small> &nbsp; <strong>Escrito por:</strong> Manuel António Luvuvamo</small></p>
+                            </figcaption>
+                        </figure>
+                        <br>
+    
+                        <a class="ler_artigo" href="ler_artigo.html"><img src="../assets/img/read.png" alt=""> Ler artigo</a>
+                    </article>
+                </section>
+            </div>
+
+
+        </div>
 
         <!-- coluna do artigo -->
         <div class="coluna2">
@@ -48,15 +116,16 @@
                 <div class="options">
 
                     <div class="star1">
-                        <button class="star"> star</button>
+                        <button class="star" id="star" onclick="star()"> star</button>
+                        <button class="unstar" id="unstar" onclick="unstar()">unstar</button>
                     </div >
                     <div class="star1" >
-                        <button class="comentar"> <a href="#">comentar</a></button>
+                        <button class="comentar"> <a href="#comentario">comentar</a></button>
                     </div>
                     <div class="star1" >
                         <button class="download">download</button>
                     </div>
-
+                    
                 </div>
 
                 <figcaption>
@@ -108,10 +177,143 @@
                     </p>
                 </figcaption>
             </figure>
+
+
+            <!-- Comentário -->
+            <div class="divComent">
+
+                <form action="" onsubmit="enviar()">
+                    
+                    <textarea required name="comentario" id="comentario" cols="10" rows="10" placeholder="Escreva seu comentário"  >
+                    </textarea>
+
+                    <input type="submit" value="">
+                </form>
+
+            </div>
         </div>
 
         <!-- coluna de comentarios -->
-        <div class="coluna3"> Comentários</div>
+        <div class="coluna3">
+
+            <h2>Comentários</h2>
+
+
+            <div class="coments">
+
+                <!-- comentário1 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário2 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário3 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário4 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário5 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário6 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário7 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário8 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário9 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+                <!-- comentário10 -->
+                <div class="coment">
+
+                    <figure>
+                        <img src="../assets/img/Cartoon.png" alt="img-perfil" class="imgperfil">
+
+                        <h3>Manuel António Luvuvamo</h3>
+                    </figure>
+                    <p>Este artigo é muito bom. A página é boa, mbora seguir nas redes sociasi!</p>
+
+                </div>
+            </div>
+
+        </div>
         
 
 
@@ -162,6 +364,6 @@
         
     </footer>
 
-
+<script src="../assets/js/enviar.js"></script>
 </body>
 </html>

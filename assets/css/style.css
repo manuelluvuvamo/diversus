@@ -87,7 +87,7 @@ body{
 /* seccão de recentes */
 
 .recentes{
-    background: seashell;
+    background: white;
     padding-top: 20px;
     padding-bottom: 70px;
     margin-top: 134px;
@@ -177,7 +177,7 @@ p.dt, p.autor{
     width: 50px;  /* Or whatever */
     height: 540px; /* Or whatever */
     margin: auto;  /* Magic! */
-    box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
+    box-shadow: 1px 0.5px 5px  black;
     border-left: 1.5px solid rgba(0,0,0,0.5);
     -webkit-transform: scale(0.8);
 }

@@ -5,12 +5,12 @@
 .cadastro{
 
     width: 400px;
-    height: 690px;
-    border: 1px solid black;
+    height: 710px;
+    box-shadow: 1px 0.5px 5px  black;
     vertical-align: middle;
     margin: 20px auto;
     font-family: arial;
-    background: seashell;;
+    background: white;;
    
 }
 
@@ -27,7 +27,7 @@
 
 
 .cadastro h2{
-    color: seashell;
+    color: white;
     background: rgb(39,112,250);
     margin-top: 10px;
     border-radius: 25px 0;
