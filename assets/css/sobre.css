@@ -1,0 +1,163 @@
+/* BODY */
+
+body{
+    background: url('../img/banner2.jpg');
+    /* url('../img/ruido.png'), */
+    /* linear-gradient(50deg,#ff4169,#7c26f8); */
+    background-attachment: fixed;
+    background-size:100%;
+    overflow-x: hidden;
+
+}
+
+
+/* FIM BODY */
+
+/* MEMBROS */
+
+.container{
+	margin: 0 auto;
+	width: 82%;
+   
+}
+
+
+
+.team{
+    background:white;
+    font-family: arial;
+    padding: 20px 0;
+
+}
+
+.team h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfis{
+    display: inline;
+    
+}
+
+.perfis .membro{
+    width: 90%;
+    height: 220px;
+    box-shadow: 1px 0.5px 5px  black;
+    margin:20px auto;
+    padding: 15px;
+}
+
+
+.perfis .membro figure{
+    display: flex;
+    width: 100%;
+    margin: auto;
+   
+}
+
+.perfis .membro figure figcaption{
+    margin:0 20px;
+    
+}
+
+.perfis .membro figure figcaption h3{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(39,112,250);
+}
+
+.perfis .membro figure img{
+    
+    height: 220px;
+    width: 200px;
+    border: 1px solid rgb(39,112,250);
+}
+
+.perfis .membro p img{
+    width: 30px;
+    height: 30px;
+    border:none
+
+}
+
+/* FIM MEMBROS */
+
+
+
+/* MORE ABOUT US */
+.more{
+    background: white;
+    font-family: arial;
+    padding: 20px 0;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    margin-bottom: -70px;
+
+    
+
+}
+
+
+.more h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.more .row, .linha{
+ 
+    display: flex;
+    /*um intem do lado do outro*/
+    flex-wrap: wrap;
+    max-width: 600%;
+    text-align: center; 
+    
+}
+
+.linha>.col{
+    flex: 1 1 200px; /*280px*/
+     /* se expanda , fique menor e tenha base de 200*/
+     margin: 10px 10px;
+}
+.more.row .coluna1,.coluna2{
+     /* div q está dentro do flex*/
+     flex: 1 1 200px; /*280px*/
+     /* se expanda , fique menor e tenha base de 200*/
+     margin: 0 37px;
+     text-align: left;
+}
+
+
+
+.more .row .col img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(39,112,250);
+}
+
+.azul{
+    color: rgb(39,112,250);
+}
+
+.coluna2 section  h2{
+
+    color: rgb(39,112,250);
+    font-family: arial;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.coluna2 section article{
+    margin-bottom: 50px;
+}
+.coluna2 section article h3{
+    color: rgb(39,112,250);
+}
+
+.coluna2 section article p{
+    margin-top: 10px;
+}
+
+.more .container{
+    border-top: 2px solid rgb(39,112,250);
+}

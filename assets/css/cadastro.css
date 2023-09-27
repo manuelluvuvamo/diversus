@@ -1,0 +1,137 @@
+.header {
+    background: rgb(39,112,250);
+}
+
+.cadastro{
+
+    width: 400px;
+    height: 710px;
+    box-shadow: 1px 0.5px 5px  black;
+    vertical-align: middle;
+    margin: 20px auto;
+    font-family: arial;
+    background: white;;
+   
+}
+
+
+.cadastro form.form{
+
+    padding: 10px 0 145px 40px;
+    color: rgb(99, 94, 94);
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+
+
+.cadastro h2{
+    color: white;
+    background: rgb(39,112,250);
+    margin-top: 10px;
+    border-radius: 25px 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+    
+    
+}
+.container{
+	margin: 0 auto;
+	width: 92%/* 1200px */
+
+}
+
+.container .imgcadastro{
+    height: 200px;
+    margin-top: -140px;
+}
+
+
+input[type="email"]{
+    background: url("../img/email.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 15px;
+}
+
+input[type="password"]{
+    background: url("../img/password.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+input[type="text"]{
+    background: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+input[type="number"]{
+    background: url("../img/cell.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+input[type="date"]{
+    background: url("../img/calendar.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.cadastro form p, form{
+    margin-top: 12px;
+}
+input[type="email"],input[type="password"],input[type="text"],input[type="date"],input[type="number"]{
+
+    padding-left: 20px;
+    width: 280px;
+    height: 35px;
+    outline: none;
+    appearance: auto;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(39,112,250,0.5);
+    margin-top: 12px;
+}
+
+ input[type="email"]:hover,input[type="password"]:hover,input[type="text"]:hover,input[type="date"]:hover,input[type="number"]:hover{
+    border-bottom: 2px solid rgb(39,112,250);
+    -webkit-transition: 0.6s;
+}
+
+
+.cadastro form input[type="submit"]{
+
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: arial;
+    background: rgb(39,112,250);
+   font-size: 14px;
+    border: none;
+    color: white;
+
+    
+}
+
+.cadastro form input[type="submit"]:hover{
+    background:#ccc;
+    color: #333;
+    border: 2px solid rgb(39,112,250);
+    -webkit-transition: 0.4s;
+}
+
+.cadastro form a.entrar{
+    
+    color:  rgb(99, 94, 94);
+    font-family: arial;
+    text-decoration: none;
+}
+.cadastro form a.entrar:hover{
+    color: rgb(39,112,250);
+}
+
+

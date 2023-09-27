@@ -1,0 +1,152 @@
+/* BODY */
+
+body{
+    background: url('../img/banner2.jpg');
+    /* url('../img/ruido.png'), */
+    /* linear-gradient(50deg,#ff4169,#7c26f8); */
+    background-attachment: fixed;
+    background-size:100%;
+    overflow-x: hidden;
+
+}
+
+
+/* FIM BODY */
+.container{
+	margin: 0 auto;
+	width: 82%;
+   
+}
+
+/* Contacts */
+
+.contacts{
+    background: white;
+    font-family: arial;
+    padding: 20px 0;
+    padding-left: 25px;
+    padding-bottom: 50px;
+   
+}
+
+.contacts  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ .row {
+ 
+    display: flex;
+    /*um intem do lado do outro*/
+    flex-wrap: wrap;
+    max-width: 600%;
+    text-align: center; 
+    padding-bottom: 10px;
+
+    padding: 10px 100px;
+    
+}
+.linha{
+    display: inline-block;
+}
+.contacts .row .col img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(39,112,250);
+}
+
+.linha>.col{
+    
+     margin: 10px 10px;
+}
+ .coluna1,.coluna2{
+     /* div q está dentro do flex*/
+     flex: 1 1 200px; /*280px*/
+     /* se expanda , fique menor e tenha base de 200*/
+     margin: 0 37px;
+     text-align: left;
+     text-align: center;
+}
+
+.contacts .coluna2{
+    
+    padding-top: 15px;
+    text-align: left;
+}
+
+.coluna2 p img{
+   
+        width: 30px;
+        height: 30px;
+        border:none
+    
+
+}
+.azul{
+    color: rgb(39,112,250);
+}
+
+.contacts .container{
+    border-bottom: 2px solid rgb(39,112,250);
+}
+/* FIM CONTACTS */
+
+/* TALK */
+.talk{
+    background: white;
+    font-family: arial;
+    padding: 20px 0;
+    padding-left: 25px;
+    padding-bottom: 70px;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.talk h1{
+    text-align: center;
+}
+
+
+.coluna1 form input[type=email]{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(39,112,250,0.5);
+    outline: none;
+}
+
+.coluna1 form input[type=email]:hover{
+    border-bottom: 2px solid rgb(39,112,250);
+    transition: 0.4s;
+}
+
+.coluna1 form textarea{
+    width: 250px;
+    border: 1px solid rgb(39,112,250);
+    outline: none;
+}
+
+.coluna1 form input[type=submit]{
+    width: 100px;
+    height: 40px;
+    float: right;
+    font-family: arial;
+    background: rgb(39,112,250);
+    font-size: 14px;
+     margin:10px 60px 0 10px;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+/* Imagem de talk */
+
+.coluna2 img{
+    height: 270px;
+}
+/* Fim imagem de talk */
+
+/* FIM TALK */

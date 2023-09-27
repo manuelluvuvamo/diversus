@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">&nbsp;&nbsp;&nbsp; Diversus</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cadastro">
+        
+        <div class="container">
+            <h2>Registrar - se</h2>
+            
+            <p><small>Cadastre - se para poder ter previlégios de receber uma notificação de novos artigos publicados e <br> muito mais como poder transferir os artigos em pdf directamente no seu dispositivo, comentar e curtir os artigos.</small></p>
+
+        <form action="" class="form" onsubmit="registrar()">
+                <!-- <label for="nome"> *Nome :</label><br> -->
+                <input type="text" id="nome" name="nome" required placeholder="primeiro nome">
+
+                <!-- <label for="sobrenome"> *Sobrenome :</label><br> -->
+                <input type="text" id="sobrenome" name="sobrenome" required placeholder="sobrenome">
+                <br><br>
+
+                <label for="dtnascimento"> Data de nascimento:</label><br>
+                <input type="date" id="dtnascimento" name="dtnascimento" required>
+
+                <p>Gênero: </p>
+                <label for="masculino"> masculino</label>
+                <input type="radio" id="masculino" name="genero" 
+                checked>
+
+                <label for="femenino"> femenino</label>
+                <input type="radio" id="femenino" name="genero">
+
+                <!-- <label for="tel"> *Telefone:</label><br> -->
+                <input type="number" id="tel" name="tel" required placeholder="Número de telefone">
+
+                <!-- <label for="email"> *Email:</label><br> -->
+                <input type="email" id="email" name="email" placeholder="email" required autocomplete="email">
+                
+
+                <!-- <label for="senha"> *palavra-passe:</label><br> -->
+                <input type="password" id="senha" name="senha" placeholder="palavra-passe" required>
+                <input type="password" id="confirm" name="confirm" placeholder="confirmar palavra-passe" required><br><br>
+
+                
+                <span><a href="login.html" class="entrar">Já tenho uma conta!</a></span>
+                <span style="color: red; display: none;" id="confirmError">Certifique - se de que a palavra-passe é a mesma nos dois campos</span>
+
+                <input type="submit" name="Cadastrar" value="Cadastrar">
+
+            </form>
+            <img src="../assets/img/login.png" alt="lendo livro" class="imgcadastro">
+        </div>
+    </div> 
+
+   <script src="../assets/js/enviar.js"></script>
+</body>
+</html>
